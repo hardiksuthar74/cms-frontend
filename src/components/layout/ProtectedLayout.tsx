@@ -38,7 +38,7 @@ const ProtectedLayout = () => {
             </Breadcrumb>
           </div>
         </header>
-        <div className="p-4 pt-24 min-h-[100vh] rounded-xl bg-muted md:min-h-min">
+        <div className="p-4 pt-24 min-h-[100vh] rounded-xl bg-muted ">
           <Outlet />
         </div>
       </SidebarInset>

@@ -21,7 +21,6 @@ import {
 } from "@/components/ui/form";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
-import GoogleAuthButton from "./GoogleAuthButton";
 import Cookies from "universal-cookie";
 import { userData } from "@/data/user";
 import toast from "react-hot-toast";

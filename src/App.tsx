@@ -8,6 +8,7 @@ import ProtectedRoute from "./components/layout/ProtectedRoute";
 import ProtectedLayout from "./components/layout/ProtectedLayout";
 import AuthRoute from "./components/layout/AuthRoute";
 import DashboardPage from "./pages/DashboardPage";
+import FormBuilder from "./feature/FormBuilder";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +26,7 @@ const App = () => {
             }
           >
             <Route path="/dashboard" element={<DashboardPage />} />
+            <Route path="models/projects" element={<FormBuilder />} />
           </Route>
           <Route
             path="/auth"
